@@ -1,4 +1,3 @@
-console.log("app again");
 const weatherform = document.querySelector("form");
 const search = document.querySelector("input");
 const message1 = document.querySelector("#msg1");
