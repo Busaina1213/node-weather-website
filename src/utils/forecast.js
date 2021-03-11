@@ -11,7 +11,7 @@ const forecast = (address, callback) => {
     } else {
       callback(
         undefined,
-        `The temperature right now is ${body.current.temperature} degrees out and there are ${body.current.precip}% chances of rain! & the weather is ${body.current.weather_descriptions}`,
+        `The temperature right now is ${body.current.temperature} degrees out and there are ${body.current.precip}% chances of rain! & the weather is ${body.current.weather_descriptions} !! `,
         `${body.current.weather_icons}`
       );
     }
