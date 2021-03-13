@@ -44,7 +44,7 @@ app.get("/help", (req, res) => {
 app.get("/weather", (req, res) => {
   if (!req.query.loc) {
     return res.send({
-      error: "please provie an address",
+      error: "please provide an address",
     });
   }
   geocode(req.query.loc, (error, { location } = {}) => {
